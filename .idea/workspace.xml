@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3c9450c-0745-4ba9-b8bb-bea2fd936ac7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dim/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\PM\mvn\apache-maven-3.8.6" />
+        <option name="localRepository" value="D:\PM\mvn\pom_yilai" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\PM\mvn\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2wZaF0mPOtevSH63VZoiskjUC20" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-dwd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/src/main/java/com/lb/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3107454",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dwd" />
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dws" />
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dim" />
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-common" />
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-common\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.struggle.flink.realtime.common.util" />
+      <recent name="com.struggle.flink.realtime.common.function" />
+      <recent name="com.struggle.flink.realtime.common.bean" />
+      <recent name="com.struggle.flink.realtime.common.base" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3c9450c-0745-4ba9-b8bb-bea2fd936ac7" name="更改" comment="" />
+      <created>1744094465785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744094465785</updated>
+      <workItem from="1744094766188" duration="520000" />
+      <workItem from="1746251442410" duration="7096000" />
+      <workItem from="1746258631049" duration="3864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dwd/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
