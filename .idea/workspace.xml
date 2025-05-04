@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c9450c-0745-4ba9-b8bb-bea2fd936ac7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-realtime-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-realtime-dim/pom.xml" afterDir="false" />
+    <list default="true" id="d3c9450c-0745-4ba9-b8bb-bea2fd936ac7" name="更改" comment="flink5.0">
       <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-detail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flink-realtime-dwd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-view-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-dws/realtime-dws-trade-sku-order-window/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-realtime-publisher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/src/main/java/flink/realtime/dwd/db/app/DwdTradeOrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiuBo-lf&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:LiuBo-lf/stream-flink-realtime-dev-liubo.git&quot;,
+    &quot;accountId&quot;: &quot;465eeb89-ed78-4efc-9fca-1a9df067a417&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,6 +67,9 @@
         <option name="userSettingsFile" value="D:\PM\mvn\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -60,15 +88,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-dwd",
+    "last_opened_file_path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-publisher/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/src/main/java/com/lb/Main.java",
+    "onboarding.tips.debug.path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-publisher/src/main/java/com/lb/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3107454",
@@ -78,13 +107,33 @@
     "应用程序.Main.executor": "Run"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\26434\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="49df9756-fd04-4545-8c9e-51de3f3f09cf" />
+        <option name="reportName" value="stream-flink-realtime-dev-liubo/qodana/2025-05-04" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\26434\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="49df9756-fd04-4545-8c9e-51de3f3f09cf" reportId="stream-flink-realtime-dev-liubo/qodana/2025-05-04" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher\src\main\resources" />
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher" />
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dwd" />
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dws" />
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dim" />
-      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-common" />
-      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-common\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher\src\main\java\com\example\flink\realtime\publisher" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.struggle.flink.realtime.common.util" />
@@ -111,12 +160,26 @@
       <updated>1744094465785</updated>
       <workItem from="1744094766188" duration="520000" />
       <workItem from="1746251442410" duration="7096000" />
-      <workItem from="1746258631049" duration="3864000" />
+      <workItem from="1746258631049" duration="4358000" />
+      <workItem from="1746336738022" duration="9996000" />
     </task>
+    <task id="LOCAL-00001" summary="flink5.0">
+      <option name="closed" value="true" />
+      <created>1746262884457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746262884457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="flink5.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="flink5.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -135,6 +198,46 @@
           <url>file://$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/src/main/java/com/lb/Main.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-detail/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dws/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-dws/realtime-dws-trade-sku-order-window/src/main/java/flink/realtime/dws/app/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/lb/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

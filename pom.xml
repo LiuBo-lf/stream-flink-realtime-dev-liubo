@@ -11,18 +11,19 @@
     <modules>
         <module>flink-realtime-dim</module>
         <module>flink-realtime-dwd</module>
-<!--        <module>flink-realtime-dws</module>-->
+        <module>flink-realtime-dws</module>
         <module>flink-realtime-common</module>
-<!--        <module>flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window</module>-->
-<!--        <module>flink-realtime-dws/flink-realtime-user-login-window</module>-->
-<!--        <module>flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window</module>-->
-<!--        <module>flink-realtime-dws/realtime-dws-trade-sku-order-window</module>-->
+        <module>flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window</module>
+        <module>flink-realtime-dws/flink-realtime-user-login-window</module>
+        <module>flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window</module>
+        <module>flink-realtime-dws/realtime-dws-trade-sku-order-window</module>
         <module>flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info</module>
         <module>flink-realtime-dwd/flink-realtime-dwd-log</module>
         <module>flink-realtime-dwd/flink-realtime-dwd-trade-cart-add</module>
         <module>flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail</module>
-        <!--        <module>flink-realtime-dws</module>-->
-<!--        <module>flink-realtime-publisher</module>-->
+        <module>flink-realtime-dwd/flink-realtime-dwd-trade-order-detail</module>
+        <module>flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail</module>
+        <module>flink-realtime-publisher</module>
     </modules>
 
     <properties>
