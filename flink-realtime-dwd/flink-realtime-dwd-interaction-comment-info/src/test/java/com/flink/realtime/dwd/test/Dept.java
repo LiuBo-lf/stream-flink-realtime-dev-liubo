@@ -5,11 +5,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @version 1.0
- * @Package com.flink.realtime.dwd.test.Dept
- * @Author liu.bo
- * @Date 2025/5/3 16:28
- * @description: 部门
+ * @ version 1.0
+ * @ Package com.flink.realtime.dwd.test.Dept
+ * @ Author liu.bo
+ * @ Date 2025/5/3 16:28
+ * @ description: 部门
  */
 @AllArgsConstructor
 @NoArgsConstructor

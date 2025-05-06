@@ -7,11 +7,11 @@ import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 /**
- * @Package com.flink.realtime.dwd.db.app.DwdInteractionCommentInfo
- * @Author  liu.bo
- * @Date  2025/5/3 16:19
- * @description:  
- * @version 1.0
+ * @ Package com.flink.realtime.dwd.db.app.DwdInteractionCommentInfo
+ * @ Author  liu.bo
+ * @ Date  2025/5/3 16:19
+ * @ description:
+ * @ version 1.0
 */
 public class DwdInteractionCommentInfo extends BaseSQLApp {
     public static void main(String[] args) {

@@ -6,11 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.base.UserLoginBean
- * @Author liu.bo
- * @Date 2025/5/3 14:06
- * @description:
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.base.UserLoginBean
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:06
+ * @ description:
  */
 @Data
 @AllArgsConstructor

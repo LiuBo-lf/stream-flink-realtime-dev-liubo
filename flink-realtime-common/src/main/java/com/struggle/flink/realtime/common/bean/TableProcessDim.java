@@ -5,11 +5,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.bean.TableProcessDim
- * @Author liu.bo
- * @Date 2025/5/3 14:10
- * @description: DIM层封装的类
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.bean.TableProcessDim
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:10
+ * @ description: DIM层封装的类
  */
 @AllArgsConstructor
 @NoArgsConstructor

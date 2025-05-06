@@ -3,11 +3,11 @@ package com.struggle.flink.realtime.common.util;
 import com.struggle.flink.realtime.common.constant.Constant;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.util.SQLUtil
- * @Author liu.bo
- * @Date 2025/5/3 14:24
- * @description:sql工具类
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.util.SQLUtil
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:24
+ * @ description:sql工具类
  */
 public class SQLUtil {
     public static String getKafkaDDL(String topic, String groupId) {

@@ -1,6 +1,5 @@
 package com.struggle.flink.realtime.common.util;
 
-import com.alibaba.fastjson.JSONObject;
 import com.struggle.flink.realtime.common.constant.Constant;
 import org.apache.doris.flink.cfg.DorisExecutionOptions;
 import org.apache.doris.flink.cfg.DorisOptions;
@@ -8,18 +7,18 @@ import org.apache.doris.flink.cfg.DorisReadOptions;
 import org.apache.doris.flink.sink.DorisSink;
 import org.apache.doris.flink.sink.writer.serializer.SimpleStringSerializer;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
+import org.apache.flink.api.connector.sink.Sink;
 import org.apache.flink.connector.kafka.sink.KafkaRecordSerializationSchema;
 import org.apache.flink.connector.kafka.sink.KafkaSink;
-import org.apache.kafka.clients.producer.ProducerRecord;
 
-import javax.annotation.Nullable;
 import java.util.Properties;
 
 /**
- * @author Felix
- * @date 2024/5/29
+ * @ author
+ * @ date 2024/5/29
  * 获取相关Source的工具类
  */
+
 public class FlinkSinkUtil {
     //获取KafkaSink
     public static KafkaSink<String> getKafkaSink(String topic) {

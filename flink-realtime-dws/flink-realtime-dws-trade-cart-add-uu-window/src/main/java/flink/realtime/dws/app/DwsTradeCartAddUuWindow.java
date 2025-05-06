@@ -27,11 +27,11 @@ import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 
 /**
- * @version 1.0
- * @Package flink.realtime.dws.app.DwsTradeCartAddUuWindow
- * @Author liu.bo
- * @Date 2025/5/4 14:27
- * @description: 加购独立用户
+ * @ version 1.0
+ * @ Package flink.realtime.dws.app.DwsTradeCartAddUuWindow
+ * @ Author liu.bo
+ * @ Date 2025/5/4 14:27
+ * @ description: 加购独立用户
  */
 public class DwsTradeCartAddUuWindow extends BaseApp {
     public static void main(String[] args) throws Exception {

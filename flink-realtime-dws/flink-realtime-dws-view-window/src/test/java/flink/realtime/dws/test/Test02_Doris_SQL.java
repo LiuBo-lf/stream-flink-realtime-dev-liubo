@@ -5,6 +5,7 @@ import org.apache.doris.flink.cfg.DorisOptions;
 import org.apache.doris.flink.cfg.DorisReadOptions;
 import org.apache.doris.flink.sink.DorisSink;
 import org.apache.doris.flink.sink.writer.serializer.SimpleStringSerializer;
+import org.apache.flink.api.connector.sink.Sink;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
@@ -64,7 +65,7 @@ public class Test02_Doris_SQL {
                         .build())
                 .setSerializer(new SimpleStringSerializer())
                 .build();
-        source.sinkTo(sink);
+        source.sinkTo((Sink<String, ?, ?, ?>) sink);
         env.execute();
     }
 }

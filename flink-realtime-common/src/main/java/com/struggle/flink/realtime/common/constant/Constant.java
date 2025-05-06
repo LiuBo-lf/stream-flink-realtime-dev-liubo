@@ -1,11 +1,11 @@
 package com.struggle.flink.realtime.common.constant;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.constant.Constant
- * @Author liu.bo
- * @Date 2025/5/3 14:14
- * @description: 常亮类
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.constant.Constant
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:14
+ * @ description: 常亮类
  */
 public class Constant {
     public static final String KAFKA_BROKERS = "cdh01:9092,cdh02:9092,cdh03:9092";

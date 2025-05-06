@@ -13,11 +13,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.util.HbaseUtil
- * @Author liu.bo
- * @Date 2025/5/3 14:23
- * @description: HBASE工具类
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.util.HbaseUtil
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:23
+ * @ description: HBASE工具类
  */
 public class HbaseUtil {
     //获取Hbase连接

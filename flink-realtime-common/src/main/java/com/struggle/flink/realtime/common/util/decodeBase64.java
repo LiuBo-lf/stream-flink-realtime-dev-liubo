@@ -6,11 +6,11 @@ import java.util.Base64;
 
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.util.decodeBase64
- * @Author liu.bo
- * @Date 2025/5/3 14:22
- * @description:
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.util.decodeBase64
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:22
+ * @ description:
  */
 public class decodeBase64 {
     // Base64 解码工具方法

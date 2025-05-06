@@ -38,11 +38,11 @@ import org.apache.hadoop.hbase.client.Connection;
 import java.util.*;
 
 /**
- * @version 1.0
- * @Package com.flink.realtime.dim.DimApp
- * @Author liu.bo
- * @Date 2025/5/3 14:31
- * @description: DIM-维度层的处理
+ * @ version 1.0
+ * @ Package com.flink.realtime.dim.DimApp
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:31
+ * @ description: DIM-维度层的处理
  */
 public class DimApp {
     public static void main(String[] args) throws Exception {
@@ -64,7 +64,7 @@ public class DimApp {
         env.setRestartStrategy(RestartStrategies.failureRateRestart(3, Time.days(30), Time.seconds(3)));
         //2.6 设置状态后端以及检查点存储路径
         env.setStateBackend(new HashMapStateBackend());
-        env.getCheckpointConfig().setCheckpointStorage("hdfs://cdh01:8020/ck");
+        env.getCheckpointConfig().setCheckpointStorage("hdfs://cdh03:8020/ck");
         //2.7 设置操作hadoop的用户
         System.setProperty("HAOOP_USER_NAME", "xuang");
         String groupID = "dim_app_group";
@@ -80,7 +80,7 @@ public class DimApp {
         //kafkaStrDS.print();
         SingleOutputStreamOperator<JSONObject> jsonObjDS = kafkaStrDS.process(new ProcessFunction<String, JSONObject>() {
             @Override
-            public void processElement(String jsonStr, ProcessFunction<String, JSONObject>.Context context, Collector<JSONObject> collector) throws Exception {
+            public void processElement(String jsonStr, ProcessFunction<String, JSONObject>.Context context, Collector<JSONObject> collector)  {
                 JSONObject jsonObj = JSON.parseObject(jsonStr);
                 String type = jsonObj.getString("op");
 //                data1 != null && ("flink-realtime".equals(db) && ("c".equals(type) || "u".equals(type) || "d".equals(type) || "r".equals(type)) || data2 != null && data2.length() > 2 && data1.length() > 2
@@ -89,7 +89,8 @@ public class DimApp {
                 }
             }
         });
-//        jsonObjDS.print();
+        jsonObjDS.print("1111111111111111");
+
 
         //Todo 3.使用FlinkCDC读取配置表中的配置信息
         Properties props = new Properties();
@@ -115,7 +116,8 @@ public class DimApp {
         SingleOutputStreamOperator<TableProcessDim> tpDS = mysqlStrDS.map(
                 new MapFunction<String, TableProcessDim>() {
                     @Override
-                    public TableProcessDim map(String s) throws Exception {
+                    //抛异常 throws Exception
+                    public TableProcessDim map(String s)  {
                         //为了处理方便，现将json字符串转换为jsonObj
                         JSONObject jsonObject = JSONObject.parseObject(s);
                         String op = jsonObject.getString("op");

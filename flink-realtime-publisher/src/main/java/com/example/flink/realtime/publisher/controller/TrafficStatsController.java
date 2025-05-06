@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @version 1.0
- * @Package com.example.flink.realtime.publisher.controller.TrafficStatsController
- * @Author liu.bo
- * @Date 2025/5/4 14:58
- * @description: 流量域统计controller
- */
+/*
+ * @ version 1.0
+ * @ Package com.example.flink.realtime.publisher.controller.TrafficStatsController
+ * @ Author liu.bo
+ * @ Date 2025/5/4 14:58
+ * @ description: 流量域统计controller
+*/
 @RestController
 public class TrafficStatsController {
 

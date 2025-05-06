@@ -8,11 +8,11 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.bean.TradeSkuOrderBean
- * @Author liu.bo
- * @Date 2025/5/3 14:12
- * @description:
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.bean.TradeSkuOrderBean
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:12
+ * @ description:
  */
 @Data
 @Builder

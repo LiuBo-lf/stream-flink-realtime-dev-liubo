@@ -9,11 +9,11 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.bean.TradeProvinceOrderBean
- * @Author liu.bo
- * @Date 2025/5/3 14:11
- * @description:
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.bean.TradeProvinceOrderBean
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:11
+ * @ description:
  */
 @Data
 @AllArgsConstructor

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Felix
- * @date 2024/5/28
+ * @ author
+ * @ date 2024/5/28
  * 通过JDBC操作MySQL数据库
  */
 public class JdbcUtil {

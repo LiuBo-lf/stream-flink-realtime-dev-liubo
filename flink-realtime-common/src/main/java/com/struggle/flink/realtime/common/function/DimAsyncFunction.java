@@ -18,8 +18,8 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
- * @author Felix
- * @date 2024/6/13
+ * @ author
+ * @ date 2024/6/13
  * 发送异步请求进行维度关联的模板类
  */
 public abstract class DimAsyncFunction<T> extends RichAsyncFunction<T, T> implements DimJoinFunction<T> {

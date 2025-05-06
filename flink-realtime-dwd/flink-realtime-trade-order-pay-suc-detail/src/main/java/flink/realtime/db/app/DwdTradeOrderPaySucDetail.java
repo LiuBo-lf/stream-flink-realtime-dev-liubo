@@ -8,7 +8,7 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
  * @Package flink.realtime.db.app.DwdTradeOrderPaySucDetail
  * @Author liu.bo
  * @Date 2025/5/4 14:12
- * @description:  支付成功事实表
+ * @description:  交易退款支付成功事实表
  */
 public class DwdTradeOrderPaySucDetail  extends BaseSQLApp {
 

@@ -6,11 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @version 1.0
- * @Package com.struggle.flink.realtime.common.bean.TrafficPageViewBean
- * @Author liu.bo
- * @Date 2025/5/3 14:13
- * @description: 实体类对象
+ * @ version 1.0
+ * @ Package com.struggle.flink.realtime.common.bean.TrafficPageViewBean
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:13
+ * @ description: 实体类对象
  */
 @AllArgsConstructor
 @NoArgsConstructor

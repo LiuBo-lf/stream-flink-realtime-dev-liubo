@@ -30,11 +30,11 @@ import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 
 /**
- * @version 1.0
- * @Package flink.realtime.dws.app.DwsTradeCartAddUuWindow
- * @Author liu.bo
- * @Date 2025/5/4 14:31
- * @description: 首页、详情页聚合统计
+ * @ version 1.0
+ * @ Package flink.realtime.dws.app.DwsTradeCartAddUuWindow
+ * @ Author liu.bo
+ * @ Date 2025/5/4 14:31
+ * @ description: 首页、详情页聚合统计
  */
 public class DwsTrafficHomeDetailPageViewWindow extends BaseApp {
     public static void main(String[] args) throws Exception {
@@ -160,8 +160,7 @@ public class DwsTrafficHomeDetailPageViewWindow extends BaseApp {
         );
         //TODO 8.将聚合的结果写到Doris
         //reduceDS.print();
-        reduceDS
-                .map(new BeanToJsonStrMapFunction<TrafficHomeDetailPageViewBean>())
+        reduceDS.map(new BeanToJsonStrMapFunction<TrafficHomeDetailPageViewBean>())
                 .sinkTo(FlinkSinkUtil.getDorisSink("dws_traffic_home_detail_page_view_window"));
     }
 }

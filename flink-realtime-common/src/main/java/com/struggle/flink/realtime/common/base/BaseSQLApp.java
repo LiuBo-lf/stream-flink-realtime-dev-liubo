@@ -12,10 +12,10 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 /**
  * @version 1.0
- * @Package com.struggle.flink.realtime.common.base.BaseSQLApp
- * @Author liu.bo
- * @Date 2025/5/3 14:09
- * @description: flinksql基类
+ * @ Package com.struggle.flink.realtime.common.base.BaseSQLApp
+ * @ Author liu.bo
+ * @ Date 2025/5/3 14:09
+ * @ description: flinksql基类
  */
 public abstract class BaseSQLApp {
     public void start(int port, int parallelism) {

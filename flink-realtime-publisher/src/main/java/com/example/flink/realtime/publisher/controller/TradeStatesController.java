@@ -12,12 +12,13 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * @version 1.0
- * @Package com.example.flink.realtime.publisher.controller.TradeStatesController
- * @Author liu.bo
- * @Date 2025/5/4 14:57
- * @description:交易域统计Controller
+ * @ version 1.0
+ * @ Package com.example.flink.realtime.publisher.controller.TradeStatesController
+ * @ Author liu.bo
+ * @ Date 2025/5/4 14:57
+ * @ description:交易域统计Controller
  */
+
 @RestController
 public class TradeStatesController {
     @Autowired
@@ -51,8 +52,8 @@ public class TradeStatesController {
                 jsonB.append(",");
             }
         }
-
         jsonB.append("],\"valueName\": \"交易额\"}}");
         return jsonB.toString();
     }
 }
+
