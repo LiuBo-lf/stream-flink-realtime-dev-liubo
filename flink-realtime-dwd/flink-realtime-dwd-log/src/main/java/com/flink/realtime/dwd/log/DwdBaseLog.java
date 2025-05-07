@@ -60,9 +60,9 @@ public class DwdBaseLog extends BaseApp {
             }
         });
         jsonObjDS.print("标准的json");
-        SideOutputDataStream<String> dirtyDS = (SideOutputDataStream<String>) jsonObjDS.getSideOutput(dirtyTag);
-        KafkaSink<String> kafkaSink = (KafkaSink<String>) FlinkSinkUtil.getKafkaSink("dirty_data");
-        dirtyDS.sinkTo((Sink<String, ?, ?, ?>) kafkaSink);
+        SideOutputDataStream<String> dirtyDS = jsonObjDS.getSideOutput(dirtyTag);
+        KafkaSink<String> kafkaSink = FlinkSinkUtil.getKafkaSink("dirty_data");
+        dirtyDS.sinkTo(kafkaSink);
 
         //对新老用户进行标记并修复
         KeyedStream<JSONObject, String> keyedDS = jsonObjDS.keyBy(jsonObj -> jsonObj.getJSONObject("common").getString("mid"));
@@ -119,15 +119,15 @@ public class DwdBaseLog extends BaseApp {
         writerToKafka(streamMap);
     }
 
-    private void writerToKafka( HashMap<String, DataStream<String>> streamMap) {
-        streamMap.get(PAGE).sinkTo((Sink<String, ?, ?, ?>) FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_PAGE));
-        streamMap.get(ERR).sinkTo((Sink<String, ?, ?, ?>) FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_ERR));
-        streamMap.get(START).sinkTo((Sink<String, ?, ?, ?>) FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_START));
-        streamMap.get(DISPLAY).sinkTo((Sink<String, ?, ?, ?>) FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_DISPLAY));
-        streamMap.get(ACTION).sinkTo((Sink<String, ?, ?, ?>) FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_ACTION));
+    private void writerToKafka(HashMap<String, DataStream<String>> streamMap) {
+        streamMap.get(PAGE).sinkTo(FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_PAGE));
+        streamMap.get(ERR).sinkTo(FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_ERR));
+        streamMap.get(START).sinkTo(FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_START));
+        streamMap.get(DISPLAY).sinkTo(FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_DISPLAY));
+        streamMap.get(ACTION).sinkTo(FlinkSinkUtil.getKafkaSink(Constant.TOPIC_DWD_TRAFFIC_ACTION));
     }
 
-    private  HashMap<String, DataStream<String>> splitStream(SingleOutputStreamOperator<JSONObject> fixedDS) {
+    private HashMap<String, DataStream<String>> splitStream(SingleOutputStreamOperator<JSONObject> fixedDS) {
         OutputTag<String> errTag = new OutputTag<String>("errTag") {
         };
         OutputTag<String> startTag = new OutputTag<String>("startTag") {
@@ -187,10 +187,10 @@ public class DwdBaseLog extends BaseApp {
                 }
             }
         });
-        SideOutputDataStream<String> errDS = (SideOutputDataStream<String>) pageDS.getSideOutput(errTag);
-        SideOutputDataStream<String> startDS = (SideOutputDataStream<String>) pageDS.getSideOutput(startTag);
-        SideOutputDataStream<String> displayDS = (SideOutputDataStream<String>) pageDS.getSideOutput(displayTag);
-        SideOutputDataStream<String> actionDS = (SideOutputDataStream<String>) pageDS.getSideOutput(actionTag);
+        SideOutputDataStream<String> errDS = pageDS.getSideOutput(errTag);
+        SideOutputDataStream<String> startDS = pageDS.getSideOutput(startTag);
+        SideOutputDataStream<String> displayDS = pageDS.getSideOutput(displayTag);
+        SideOutputDataStream<String> actionDS = pageDS.getSideOutput(actionTag);
         errDS.print("错误日志数据");
         startDS.print("启动日志数据");
         displayDS.print("曝光日志数据");
