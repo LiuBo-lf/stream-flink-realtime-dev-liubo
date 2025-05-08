@@ -27,10 +27,10 @@ public class Test01_FlinkCDC {
 //        env.enableCheckpointing(3000);
         //TODO 3.使用FlinkCDC读取MySQL表中的数据
         MySqlSource<String> mySqlSource = MySqlSource.<String>builder()
-                .hostname("cdh03")
+                .hostname("192.168.217.134")
                 .port(3306)
                 .databaseList("gmall") // set captured database
-                .tableList("gmall.*") // set captured table
+                .tableList("gmall.order_info") // set captured table
                 .username("root")
                 .password("root")
                 .deserializer(new JsonDebeziumDeserializationSchema()) // converts SourceRecord to JSON String
@@ -39,7 +39,7 @@ public class Test01_FlinkCDC {
                 .build();
 
         KafkaSink<String> sink = KafkaSink.<String>builder()
-                .setBootstrapServers("cdh03:9092")
+                .setBootstrapServers("192.168.217.134:9092")
                 .setRecordSerializer(KafkaRecordSerializationSchema.builder()
                         .setTopic("topic_db")
                         .setValueSerializationSchema(new SimpleStringSchema())

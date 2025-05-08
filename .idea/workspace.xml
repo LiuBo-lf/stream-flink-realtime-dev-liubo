@@ -5,58 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c9450c-0745-4ba9-b8bb-bea2fd936ac7" name="更改" comment="flink5.0">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/BaseSQLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/BaseSQLApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/CartAddUuBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/CartAddUuBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/UserLoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/UserLoginBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/abstract_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/base/abstract_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TableProcessDim.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TableProcessDim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TradeProvinceOrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TradeProvinceOrderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TradeSkuOrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TradeSkuOrderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TrafficHomeDetailPageViewBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TrafficHomeDetailPageViewBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TrafficPageViewBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/bean/TrafficPageViewBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/constant/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/function/BeanToJsonStrMapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/function/BeanToJsonStrMapFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/function/DimAsyncFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/function/DimAsyncFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/DateFormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/DateFormatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/FlinkSinkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/FlinkSinkUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/FlinkSourceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/FlinkSourceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/HbaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/HbaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/JdbcUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/SQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/SQLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/Static_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/Static_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/decodeBase64.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/java/com/struggle/flink/realtime/common/util/decodeBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-realtime-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-common/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dim/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dim/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-realtime-dim/src/main/java/com/flink/realtime/dim/DimApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dim/src/main/java/com/flink/realtime/dim/DimApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-realtime-dim/src/test/java/com/flink/realtime/dim/Test01_FlinkCDC.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dim/src/test/java/com/flink/realtime/dim/Test01_FlinkCDC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/src/main/java/com/flink/realtime/dwd/db/app/DwdInteractionCommentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/src/main/java/com/flink/realtime/dwd/db/app/DwdInteractionCommentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/src/test/java/com/flink/realtime/dwd/test/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-interaction-comment-info/src/test/java/com/flink/realtime/dwd/test/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/src/main/java/com/flink/realtime/dwd/log/DwdBaseLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-log/src/main/java/com/flink/realtime/dwd/log/DwdBaseLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-cancel-detail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-detail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-order-detail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/src/main/java/flink/realtime/db/app/DwdTradeOrderPaySucDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-trade-order-pay-suc-detail/src/main/java/flink/realtime/db/app/DwdTradeOrderPaySucDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window/src/main/java/flink/realtime/dws/app/DwsTradeCartAddUuWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-trade-cart-add-uu-window/src/main/java/flink/realtime/dws/app/DwsTradeCartAddUuWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/src/main/java/flink/realtime/dws/app/DwsTrafficHomeDetailPageViewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-home-detail-view-window/src/main/java/flink/realtime/dws/app/DwsTrafficHomeDetailPageViewWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-view-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-traffic-view-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/src/test/java/flink/realtime/dws/test/Test02_Doris_SQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-dws-view-window/src/test/java/flink/realtime/dws/test/Test02_Doris_SQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/realtime-dws-trade-sku-order-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/realtime-dws-trade-sku-order-window/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/src/main/java/flink/realtime/dwd/db/app/app/DwdCartInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dwd/flink-realtime-dwd-trade-cart-add/src/main/java/flink/realtime/dwd/db/app/app/DwdCartInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/src/main/java/flink/realtime/dws/app/DwsUserUserLoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-dws/flink-realtime-user-login-window/src/main/java/flink/realtime/dws/app/DwsUserUserLoginWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/FlinkRealtimePublisherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/FlinkRealtimePublisherApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/controller/TradeStatesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/controller/TradeStatesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/controller/TrafficStatsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/controller/TrafficStatsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/service/impl/TradeStateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/service/impl/TradeStateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/service/impl/TrafficStatsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/java/com/example/flink/realtime/publisher/service/impl/TrafficStatsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-realtime-publisher/src/test/java/com/example/flink/realtime/publisher/FlinkRealtimePublisherApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-realtime-publisher/src/test/java/com/example/flink/realtime/publisher/FlinkRealtimePublisherApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +31,7 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -114,34 +74,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PM/idea-pm/flink-realtime-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-publisher/src/main/java/com/lb/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3107454&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.DimApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.DimApp.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test01_FlinkCDC.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test02_SQL_JOIN.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test3_Demo.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.FlinkRealtimePublisherApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PM/idea-pm/flink-realtime-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/PM/idea-pm/stream-flink-realtime-dev-liubo/flink-realtime-publisher/src/main/java/com/lb/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3107454",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.DimApp (1).executor": "Run",
+    "应用程序.DimApp (2).executor": "Run",
+    "应用程序.DimApp.executor": "Run",
+    "应用程序.DwdBaseLog (1).executor": "Run",
+    "应用程序.DwdBaseLog.executor": "Run",
+    "应用程序.DwdCartInfo.executor": "Run",
+    "应用程序.DwdInteractionCommentInfo.executor": "Run",
+    "应用程序.DwdTradeOrderCancelDetail.executor": "Run",
+    "应用程序.DwdTradeOrderDetail.executor": "Run",
+    "应用程序.DwsTradeCartAddUuWindow.executor": "Run",
+    "应用程序.DwsTradeSkuOrderWindow.executor": "Run",
+    "应用程序.DwsTrafficVcChArisNewPageViewWindow (1).executor": "Run",
+    "应用程序.DwsTrafficVcChArisNewPageViewWindow.executor": "Run",
+    "应用程序.DwsUserUserLoginWindow.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Static_Test2.executor": "Run",
+    "应用程序.Test01_FlinkCDC.executor": "Run",
+    "应用程序.Test02_SQL_JOIN.executor": "Run",
+    "应用程序.Test3_Demo.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "hive"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.flink.realtime.publisher" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher\src\main\resources" />
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher" />
@@ -150,6 +132,7 @@
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-dim" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\docs\imgs" />
       <recent name="D:\PM\idea-pm\stream-flink-realtime-dev-liubo\flink-realtime-publisher\src\main\java\com\example\flink\realtime\publisher" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -159,7 +142,7 @@
       <recent name="com.struggle.flink.realtime.common.base" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test01_FlinkCDC">
+  <component name="RunManager" selected="应用程序.DwsTradeSkuOrderWindow">
     <configuration name="DimApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flink.realtime.dim.DimApp" />
       <module name="flink-realtime-dim" />
@@ -173,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01_FlinkCDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flink.realtime.dim.Test01_FlinkCDC" />
-      <module name="flink-realtime-dim" />
+    <configuration name="DwdBaseLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flink.realtime.dwd.log.DwdBaseLog" />
+      <module name="flink-realtime-dwd-log" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flink.realtime.dim.*" />
+          <option name="PATTERN" value="com.flink.realtime.dwd.log.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02_SQL_JOIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flink.realtime.dwd.test.Test02_SQL_JOIN" />
-      <module name="flink-realtime-dwd-interaction-comment-info" />
+    <configuration name="DwdTradeOrderCancelDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flink.realtime.dwd.db.app.DwdTradeOrderCancelDetail" />
+      <module name="flink-realtime-dwd-trade-order-cancel-detail" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flink.realtime.dwd.test.*" />
+          <option name="PATTERN" value="flink.realtime.dwd.db.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +182,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flink.realtime.dwd.test.Test3_Demo" />
-      <module name="flink-realtime-dwd-interaction-comment-info" />
+    <configuration name="DwsTradeCartAddUuWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flink.realtime.dws.app.DwsTradeCartAddUuWindow" />
+      <module name="flink-realtime-dws-trade-cart-add-uu-window" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flink.realtime.dwd.test.*" />
+          <option name="PATTERN" value="flink.realtime.dws.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DwsTradeSkuOrderWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flink.realtime.dws.app.DwsTradeSkuOrderWindow" />
+      <module name="realtime-dws-trade-sku-order-window" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flink.realtime.dws.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,10 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Test01_FlinkCDC" />
+        <item itemvalue="应用程序.DwsTradeSkuOrderWindow" />
+        <item itemvalue="应用程序.DwdTradeOrderCancelDetail" />
+        <item itemvalue="应用程序.DwdBaseLog" />
         <item itemvalue="应用程序.DimApp" />
-        <item itemvalue="应用程序.Test3_Demo" />
-        <item itemvalue="应用程序.Test02_SQL_JOIN" />
+        <item itemvalue="应用程序.DwsTradeCartAddUuWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +266,11 @@
       <workItem from="1746452288615" duration="362000" />
       <workItem from="1746519556343" duration="2076000" />
       <workItem from="1746530273325" duration="6793000" />
+      <workItem from="1746541537241" duration="1973000" />
+      <workItem from="1746584629295" duration="5411000" />
+      <workItem from="1746606175373" duration="7325000" />
+      <workItem from="1746620486140" duration="6452000" />
+      <workItem from="1746663792517" duration="10872000" />
     </task>
     <task id="LOCAL-00001" summary="flink5.0">
       <option name="closed" value="true" />
@@ -286,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746351352112</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="flink5.0">
+      <option name="closed" value="true" />
+      <created>1746543526231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746543526231</updated>
+    </task>
+    <task id="LOCAL-00004" summary="flink5.0">
+      <option name="closed" value="true" />
+      <created>1746628492406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746628492406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

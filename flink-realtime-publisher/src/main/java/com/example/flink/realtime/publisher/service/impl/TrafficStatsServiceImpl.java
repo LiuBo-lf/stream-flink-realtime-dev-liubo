@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @version 1.0
- * @Package com.example.flink.realtime.publisher.service.impl.impl.TrafficStatsServiceImpl
- * @Author liu.bo
- * @Date 2025/5/4 15:06
- * @description:流量域统计service接口实现类
+ * @ version 1.0
+ * @ Package com.example.flink.realtime.publisher.service.impl.impl.TrafficStatsServiceImpl
+ * @ Author liu.bo
+ * @ Date 2025/5/4 15:06
+ * @ description:流量域统计service接口实现类
  */
 @Service
 public class TrafficStatsServiceImpl implements TrafficStatsService {

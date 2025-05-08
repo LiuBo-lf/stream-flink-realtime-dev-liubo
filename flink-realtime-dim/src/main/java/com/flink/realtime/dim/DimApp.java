@@ -58,13 +58,13 @@ public class DimApp {
         //2.3 设置job取消后检查点是否保留
         env.getCheckpointConfig().setExternalizedCheckpointCleanup(CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
         //2.4 设置检查点之间最小时间间隔
-        env.getCheckpointConfig().setMinPauseBetweenCheckpoints(2000L);
+//        env.getCheckpointConfig().setMinPauseBetweenCheckpoints(2000L);
         //2.5 设置重启策略
         env.setRestartStrategy(RestartStrategies.fixedDelayRestart(3, 3000L));
         env.setRestartStrategy(RestartStrategies.failureRateRestart(3, Time.days(30), Time.seconds(3)));
         //2.6 设置状态后端以及检查点存储路径
         env.setStateBackend(new HashMapStateBackend());
-        env.getCheckpointConfig().setCheckpointStorage("hdfs://cdh03:8020/ck");
+        env.getCheckpointConfig().setCheckpointStorage("hdfs://192.168.217.134:3306/ck");
         //2.7 设置操作hadoop的用户
         System.setProperty("HAOOP_USER_NAME", "xuang");
         String groupID = "dim_app_group";
@@ -100,8 +100,8 @@ public class DimApp {
         MySqlSource<String> mySqlSource = MySqlSource.<String>builder()
                 .hostname(Constant.MYSQL_HOST)
                 .port(Constant.MYSQL_PORT)
-                .databaseList("flink_realtime_dim")
-                .tableList("flink_realtime_dim.table_process_dim")
+                .databaseList("gmall")
+                .tableList("gmall.*")
                 .username(Constant.MYSQL_USER_NAME)
                 .password(Constant.MYSQL_PASSWORD)
                 .deserializer(new JsonDebeziumDeserializationSchema())

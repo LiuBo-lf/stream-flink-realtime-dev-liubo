@@ -27,11 +27,11 @@ import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 /**
- * @version 1.0
- * @Package flink.realtime.dws.app.DwsUserUserLoginWindow
- * @Author liu.bo
- * @Date 2025/5/4 14:46
- * @description:
+ * @ version 1.0
+ * @ Package flink.realtime.dws.app.DwsUserUserLoginWindow
+ * @ Author liu.bo
+ * @ Date 2025/5/4 14:46
+ * @ description:
  */
 public class DwsUserUserLoginWindow extends BaseApp {
     public static void main(String[] args) throws Exception {

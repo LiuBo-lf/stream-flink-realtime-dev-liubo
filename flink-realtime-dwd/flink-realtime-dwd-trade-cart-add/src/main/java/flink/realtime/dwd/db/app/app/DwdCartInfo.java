@@ -7,14 +7,12 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 import java.time.Duration;
 
-;
-
 /**
- * @version 1.0
- * @Package flink.realtime.dwd.db.app.DwdCartInfo
- * @Author liu.bo
- * @Date 2025/5/3 16:41
- * @description: 订单事实表
+ * @ version 1.0
+ * @ Package flink.realtime.dwd.db.app.DwdCartInfo
+ * @ Author liu.bo
+ * @ Date 2025/5/3 16:41
+ * @ description: 订单事实表
  */
 public class DwdCartInfo extends BaseSQLApp {
     public static void main(String[] args) {
